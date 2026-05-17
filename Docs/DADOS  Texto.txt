@@ -1,0 +1,74 @@
+O consumo médio residencial de água na área da Sabesp (incluindo São Paulo e Itaquaquecetuba) pode ser estimado com boa confiabilidade usando dados técnicos e simuladores baseados na própria Sabesp.
+💧 📊 Consumo médio padrão residencial
+👉 Para uma casa de padrão médio no estado de São Paulo:
+
+
+Consumo per capita (médio):
+≈ 150 litros por pessoa por dia [reicacavaz...tos.com.br], [chuvaexpress.com.br]
+
+
+Família padrão (4 pessoas):
+✅ ≈ 18 m³ por mês (18.000 litros) [reicacavaz...tos.com.br]
+
+
+
+Pessoas na casaConsumo médio mensal1 pessoa~4,5 m³2 pessoas~9 m³4 pessoas~18 m³6 pessoas~27 m³
+👉 Esses valores são amplamente utilizados em estudos técnicos e também em cálculos da Sabesp. [reicacavaz...tos.com.br]
+
+💰 💡 Consumo médio em valor (2026)
+
+Tarifa média (faixa comum 11–20 m³):
+≈ R$ 6,40 por m³ [g1.globo.com]
+
+👉 Então:
+
+18 m³/mês → cerca de R$ 115 a R$ 160/mês
+(dependendo da faixa e esgoto)
+
+
+📊 📌 Distribuição do consumo dentro da casa
+Isso é MUITO importante para seu projeto:
+
+🚿 Banheiro → 65–70% do consumo
+🍽️ Cozinha → 15–20%
+🧺 Lavanderia → 10–15%
+🌱 Área externa → 5–10% [reicacavaz...tos.com.br]
+
+
+🎯 💧 Conexão com seu projeto (insight para dashboard)
+Você NÃO vai usar:
+
+banho
+consumo humano
+
+👉 Você vai substituir principalmente:
+
+descarga
+lavagem
+limpeza
+irrigação
+
+✅ Isso permite trabalhar com uma redução potencial significativa (parte não potável do consumo).
+
+🚀 💡 Como usar isso no Power BI
+Você pode criar um indicador base:
+🧮 Medida inicial
+
+Consumo médio padrão = 18 m³/mês por residência
+
+
+📉 Depois calcular:
+
+Consumo substituível (ex: 30% a 50%)
+Economia (em m³)
+Economia (em R$)
+
+
+✅ ✅ CONCLUSÃO
+👉 Para seu projeto:
+📌 Valor de referência:
+
+18 m³/mês por casa (família padrão 4 pessoas)
+
+👉 Isso será o “baseline” do seu dashboard.
+
